@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="id.ac.unsyiah.elektro.mobile.sabang.Km0Activity">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kembali"
+            android:id="@+id/button14"
+            android:onClick="doBack"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TUGU KILOMETER 0"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lokasi tugu Titik Nol Indonesia terletak di areal Hutan Wisata Sabang tepatnya di Desa Iboih Ujong Ba’u, Kecamatan Sukakarya, sekitar 5 km dari Pantai Iboih. Letaknya di sebelah barat kota Sabang sekitar 29 kilometer atau memakan waktu sekitar 40 menit berkendara."
+        android:id="@+id/textView8"
+        android:layout_marginTop="78dp"
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="right|top|bottom|center|left" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/km0" />
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sabang</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jelajah_turis">JelajahTurisActivity</string>
+    <string name="title_activity_cari_wisata">CariWisataActivity</string>
+    <string name="title_activity_cari_hotel">CariHotelActivity</string>
+    <string name="title_activity_tugu_km0">TuguKM0Activity</string>
+    <string name="title_activity_km0">Km0Activity</string>
+    <string name="title_activity_pantai_iboih">PantaiIboihActivity</string>
+    <string name="title_activity_danau_aneuk_laot">DanauAneukLaotActivity</string>
+    <string name="title_activity_pulau_rubiah">PulauRubiahActivity</string>
+    <string name="title_activity_pantai_gapang">PantaiGapangActivity</string>
+    <string name="title_activity_pantai_paradiso">PantaiParadisoActivity</string>
+    <string name="title_activity_pantai_tapak_gajah">PantaiTapakGajahActivity</string>
+    <string name="title_activity_pantai_pasir_putih">PantaiPasirPutihActivity</string>
+    <string name="title_activity_air_terjun_pria_laot">AirTerjunPriaLaotActivity</string>
+    <string name="title_activity_air_panas_gunung_merapi">AirPanasGunungMerapiActivity</string>
+    <string name="title_activity_air_panas_keuneukai">AirPanasKeuneukaiActivity</string>
+</resources>

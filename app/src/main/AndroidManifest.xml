@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.unsyiah.elektro.mobile.sabang" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JelajahTurisActivity"
+            android:label="@string/title_activity_jelajah_turis" >
+        </activity>
+        <activity
+            android:name=".CariWisataActivity"
+            android:label="@string/title_activity_cari_wisata" >
+        </activity>
+        <activity
+            android:name=".CariHotelActivity"
+            android:label="@string/title_activity_cari_hotel" >
+        </activity>
+        <activity
+            android:name=".Km0Activity"
+            android:label="@string/title_activity_km0" >
+        </activity>
+        <activity
+            android:name=".PantaiIboihActivity"
+            android:label="@string/title_activity_pantai_iboih" >
+        </activity>
+        <activity
+            android:name=".DanauAneukLaotActivity"
+            android:label="@string/title_activity_danau_aneuk_laot" >
+        </activity>
+        <activity
+            android:name=".PulauRubiahActivity"
+            android:label="@string/title_activity_pulau_rubiah" >
+        </activity>
+        <activity
+            android:name=".PantaiGapangActivity"
+            android:label="@string/title_activity_pantai_gapang" >
+        </activity>
+        <activity
+            android:name=".PantaiParadisoActivity"
+            android:label="@string/title_activity_pantai_paradiso" >
+        </activity>
+        <activity
+            android:name=".PantaiTapakGajahActivity"
+            android:label="@string/title_activity_pantai_tapak_gajah" >
+        </activity>
+        <activity
+            android:name=".PantaiPasirPutihActivity"
+            android:label="@string/title_activity_pantai_pasir_putih" >
+        </activity>
+        <activity
+            android:name=".AirTerjunPriaLaotActivity"
+            android:label="@string/title_activity_air_terjun_pria_laot" >
+        </activity>
+        <activity
+            android:name=".AirPanasGunungMerapiActivity"
+            android:label="@string/title_activity_air_panas_gunung_merapi" >
+        </activity>
+        <activity
+            android:name=".AirPanasKeuneukaiActivity"
+            android:label="@string/title_activity_air_panas_keuneukai" >
+        </activity>
+    </application>
+
+</manifest>
